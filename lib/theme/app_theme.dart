@@ -21,7 +21,6 @@ abstract final class AppTheme {
         dividerColor: AppColors.divider,
         pageTransitionsTheme: const PageTransitionsTheme(
           builders: {
-            TargetPlatform.iOS: CupertinoPageTransitionsBuilder(),
             TargetPlatform.android: FadeUpwardsPageTransitionsBuilder(),
           },
         ),
