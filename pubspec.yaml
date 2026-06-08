@@ -1,0 +1,44 @@
+name: luminary
+description: "Luminary — AI-powered grief companion app."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+  go_router: ^13.2.0
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+  shared_preferences: ^2.2.3
+  http: ^1.2.1
+  intl: ^0.19.0
+  uuid: ^4.4.0
+  cupertino_icons: ^1.0.8
+  fl_chart: ^0.69.0
+  image_picker: ^1.1.2
+  connectivity_plus: ^6.0.3
+  cached_network_image: ^3.3.1
+  purchases_flutter: ^10.0.2
+  firebase_core: ^3.15.2
+  firebase_messaging: ^15.2.10
+  flutter_local_notifications: ^21.0.0
+  table_calendar: ^3.1.3
+  just_audio: ^0.10.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.9
+  riverpod_generator: ^2.4.0
+  custom_lint: ^0.6.4
+
+flutter:
+  uses-material-design: true
